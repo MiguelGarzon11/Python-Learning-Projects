@@ -119,3 +119,16 @@ def contar_descendete(numero):
 
 #contar_descendete(10)
 
+# Ejercicio 12
+
+def contar_vocales(texto):
+    if texto == "":
+        return 0
+    else:
+        vocales = ["a","e","i","o","u"]
+        if texto[0].lower() in vocales:
+            return 1 + contar_vocales(texto[1:])
+        else:
+            return contar_vocales(texto[1:])
+
+#print(contar_vocales("Pollita"))

@@ -96,5 +96,26 @@ def contar_numeros(numero):
         numero = (numero // 10)
         return 1 + contar_numeros(numero)
 
-print(contar_numeros(9))
-print(contar_numeros(45678))
+#print(contar_numeros(9))
+#print(contar_numeros(45678))
+
+# Ejercicio 10
+
+def contar_creciente(actual, limite):
+    if actual > limite:
+        return
+    print(actual)
+    contar_creciente(actual + 1, limite)
+
+#contar_creciente(1, 7)
+
+# Ejercicio 11
+
+def contar_descendete(numero):
+    if numero == 0:
+        return
+    print(numero)
+    contar_descendete(numero - 1)
+
+#contar_descendete(10)
+

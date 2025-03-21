@@ -73,4 +73,28 @@ def numero_grande(lista):
     else:
         return mayor
     
-print(numero_grande([1,56,343,4,78]))
+#print(numero_grande([1,56,343,4,78]))
+
+# Ejercicio 9 # Slicing texto[1:] -> Te da la cadena sin el primer caracter # texto [:-1] -> Te da la cadena sin el último caracter
+
+def invertir_cadena(texto):
+    if len(texto) == 1:
+        return texto[0]
+    else:
+        ultima_letra = texto[-1]
+        return ultima_letra + invertir_cadena(texto[:-1])
+    
+#print(invertir_cadena("Hola"))
+#print(invertir_cadena("pollita"))
+
+# Ejercicio 9 
+
+def contar_numeros(numero):
+    if numero < 10:
+        return 1
+    else: 
+        numero = (numero // 10)
+        return 1 + contar_numeros(numero)
+
+print(contar_numeros(9))
+print(contar_numeros(45678))

@@ -132,3 +132,32 @@ def contar_vocales(texto):
             return contar_vocales(texto[1:])
 
 #print(contar_vocales("Pollita"))
+
+# Ejercicio 13
+
+def dar_comida(comida, personas):
+    if comida <= 0:
+        print("No queda más comida.")
+        return
+    if personas <= 0:
+        print("No hay más personas en la fila.")
+        return
+    n_comida = comida - min(2, comida)
+    n_personas = personas - 1
+
+    print(f"Quedan {n_comida} porciones de pizza, y {n_personas} personas en la fila.")
+    return dar_comida(n_comida, n_personas)
+
+# dar_comida(10, 20)
+
+# Ejercicio 14
+
+def potencia_numero(a, b):
+    if a == 0:
+        return 0
+    if b == 0:
+        return 1
+    
+    return a * potencia_numero(a, b - 1) 
+
+#print(potencia_numero(5, 6))

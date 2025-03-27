@@ -2,11 +2,11 @@
 # dividiendo en menores y mayores, y aplicándose recursivamente a cada sublista.
 
 
-def quick_sort(lista, pivote):
+def quick_sort(lista):
     if len(lista) <= 1:
         return lista
     
-    pivote = numeros[0]
+    pivote = lista[0]
     menores = [x for x in lista[1:] if x <= pivote]
     mayores = [x for x in lista[1:] if x > pivote]
 
@@ -15,4 +15,4 @@ def quick_sort(lista, pivote):
 numeros = [8,3,1,7,0,10,2]
 
 ordenados = quick_sort(numeros)
-print("Lista ordenada:", quick_sort(ordenados))
+print("Lista ordenada:", ordenados)

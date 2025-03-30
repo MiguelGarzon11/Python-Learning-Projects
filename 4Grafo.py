@@ -41,5 +41,5 @@ amigos_comun(red_social_lower)
 
 
 
-# print("Los amigos de Pedro son:", red_social["Pedro"])
-# print("los amigos de Luis son:", red_social["Luis"])
+print("Los amigos de Pedro son:", red_social["Pedro"])
+print("los amigos de Luis son:", red_social["Luis"])

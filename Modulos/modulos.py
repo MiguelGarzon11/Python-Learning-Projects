@@ -1,9 +1,9 @@
 # Ejercicios básicos para entender modulos
 
-# def saludar(nombre):
-    # return f"Hola, {nombre}!"
-# 
-# PI = 3.1416 
+def saludar(nombre):
+    return f"Hola, {nombre}!"
+
+PI = 3.1416 
 
 def suma(a, b):
     return a + b

@@ -2,8 +2,8 @@
 
 import modulos
 
-# print(modulos.saludar("Miguel"))
-# print(f"El valor de PI es {modulos.PI}")
+print(modulos.saludar("Miguel"))
+print(f"El valor de PI es {modulos.PI}")
 
 
 while True:
@@ -24,11 +24,11 @@ while True:
             if opcion == 1:
                 print(f"La suma es: {modulos.suma(num1, num2)}\n")
             elif opcion == 2:
-                print(f"La resta es: {modulos.resta(num1, num2)}\n")
+                print(f"La resta es: {modulos.resta(num1, num2)}")
             elif opcion == 3:
-                print(f"La multiplicación es: {modulos.multiplicacion(num1, num2)}\n")
+                print(f"La multiplicación es: {modulos.multiplicacion(num1, num2)}")
             elif opcion == 4:
-                print(f"La división es: {modulos.division(num1, num2)}\n")
+                print(f"La división es: {modulos.division(num1, num2)}")
 
         elif opcion == 5:
             print("Saiendo del programa...\n")

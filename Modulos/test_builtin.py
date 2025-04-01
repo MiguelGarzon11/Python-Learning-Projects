@@ -1,4 +1,4 @@
-# Test de funciones builtin
+# Test de funciones builtin con Modulos
 
 import builtin_functions as bf # Utilizo as para renombrar el modulo y utilizar un nombre más corto
 
@@ -15,8 +15,8 @@ numeros_producto = [1,2,3,4,5]
 print("Producto de la lista:", bf.producto_lista(numeros_producto))
 
 # Combinar dos listas
-lista1 = ['a','b','c']
-lista2 = [1,2,3]
+lista1 = ['a','b','c','d']
+lista2 = [1,2,3,4]
 print("Listas combinadas:", bf.combinar_listas(lista1, lista2))
 
 # Ordenar palabras por longitud

@@ -1,29 +1,29 @@
 # Ejercicios Básicos para entender los Decoradores de Python
 
-# def decorador(func):
-#     def wrapper():
-#         print("Antes de llamar a la función")
-#         func()
-#         print("Despues de llamar a la función")
-#     return wrapper
+def decorador(func):
+    def wrapper():
+        print("Antes de llamar a la función")
+        func()
+        print("Despues de llamar a la función")
+    return wrapper
 
-# @decorador
-# def saludo():
-#     print("Hola!")
+@decorador
+def saludo():
+    print("Hola!")
 
-# saludo()
+saludo()
 
-# def decorador_argumentos(func):
-#     def wrapper(*args, **kwargs):
-#         print("Llamando a la función con los siguientes argumentos:", args)
-#         return func(*args, **kwargs)
-#     return wrapper
+def decorador_argumentos(func):
+    def wrapper(*args, **kwargs):
+        print("Llamando a la función con los siguientes argumentos:", args)
+        return func(*args, **kwargs)
+    return wrapper
 
-# @decorador_argumentos 
-# def suma(a, b):
-#     return a + b
+@decorador_argumentos 
+def suma(a, b):
+    return a + b
 
-# print(suma(5, 7))
+print(suma(5, 7))
 
 
 # Ejemplo Básico para entender decoradores

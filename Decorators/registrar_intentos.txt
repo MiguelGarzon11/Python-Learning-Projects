@@ -1,0 +1,3 @@
+2025-04-01 23:00:25.997903 - Usuario: admin - Estado: Éxito
+2025-04-01 23:00:25.997995 - Usuario: Camila - Estado: Éxito
+2025-04-01 23:00:25.998034 - Usuario: Miguel - Estado: Fallo

@@ -34,3 +34,9 @@ texto = "Hola estoy estudiando Regular Expresions de Python"
 patron = r"\b[A-Z]\w*"
 resultado = re.findall(patron, texto)
 print(resultado)
+
+texto = "Tengo 2 perros, 3 gatos y 15 peces en mi casa."
+patron = r"\d+"  # Encuentra uno o más dígitos consecutivos
+resultado = re.findall(patron, texto)
+
+print(resultado)

@@ -33,8 +33,7 @@ class FacturaInternacional(Factura):
 
     def calcular_impuesto(self, incremento):
         self._monto = self._monto + (self._monto * incremento // 100)
-        self._monto
-
+        self._
     def mostrar_factura(self):
         print(f"\nLa factura {self._numero}\n")
         print(f"correspondiente al cliente {self._cliente}\nDel país registrado: {self._pais_cliente}.\n")

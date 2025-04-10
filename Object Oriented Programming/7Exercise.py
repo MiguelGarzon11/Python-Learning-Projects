@@ -7,7 +7,7 @@ class TiendaVirtual:
         self._prod = prod
 
     def __repr__(self):
-        return f"TiendaVirtual(nombre='{self._nombre}', productos={self._prod})"
+        return f"TiendaVirtual(nombre={self._nombre}, productos={self._prod})"
     
     def __add__(self, other):
         nueva_lista = self._prod + other._prod 
@@ -21,8 +21,8 @@ class TiendaVirtual:
         return self
     
     def __eq__(self, other):
-        if isinstance(other, TiendaVirtual):
-            return self._nombre == other._nombre
+        if isinstance(other, TiendaVirtual):2
+        return self._nombre == other._nombre
         return False
     
     def __lt__(self, other):

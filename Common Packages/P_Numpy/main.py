@@ -14,4 +14,16 @@
 # Generación de datos aleatorios.
 
 
+# import numpy as np
 
+# Crear un array bidimensional
+
+# matriz = np.array([[1,2],[3,4]])  # Convierte una lista o lista de listas de python en un array de Numpy
+# print(matriz)
+
+# Crear arrays con valores automáticos
+
+# print(np.zeros(5))        # [0. 0. 0. 0. 0.]  # Crea un array de n elementos todos con valor de 0
+# print(np.ones((2, 3)))    # matriz 2x3 de unos    # Crea un array de n elementos todos con valor de 1
+# print(np.arange(0, 10, 2))  # [0 2 4 6 8]     # Crea un array de números que empiezan en (inicio), termina en (fin), y salta de (paso).
+# print(np.linspace(0, 1, 5)) # 5 valores entre 0 y 1   # Crea un array con una cantidad fija de valores equidistantes entre (inicio) y (fin), incluyendo el final.

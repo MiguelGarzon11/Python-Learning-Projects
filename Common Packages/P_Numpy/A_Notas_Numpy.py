@@ -22,6 +22,6 @@ for i, nota in enumerate(p_fila, start=1):
 
 p_materia = notas.mean(axis=0)
 for i, nota in enumerate(p_materia, start=1):
-    print(f"[green]Promedio de calificación para la materia[/green]{i}{nota}")
+    print(f"[green]Promedio de calificación para la materia [bold violet]{i}[/bold violet]: [/green]{nota}")
     
 

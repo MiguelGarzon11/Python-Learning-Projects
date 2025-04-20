@@ -1,11 +1,11 @@
 2025-04-18 10:45:32 INFO Usuario inició sesión correctamente
 2025-04-18 10:47:01 ERROR No se pudo conectar a la base de datos
 2025-04-18 10:48:10 WARNING Uso alto de memoria
-2025-04-18 10:49:45 ERROR Archivo no encontrado en el directorio
+2025-04-17 10:49:45 ERROR Archivo no encontrado en el directorio
 2025-04-18 10:51:20 INFO Proceso completado exitosamente
 2025-04-18 10:53:09 ERROR Timeout al intentar comunicarse con el servidor
 2025-04-18 10:55:00 INFO Usuario cerró sesión
-2025-04-18 10:57:33 ERROR El formato del archivo es inválido
+2025-04-17 10:57:33 ERROR El formato del archivo es inválido
 2025-04-18 10:59:17 WARNING Conexión inestable detectada
-2025-04-18 11:00:00 ERROR Acceso denegado al recurso
+2025-04-16 11:00:00 ERROR Acceso denegado al recurso
 2025-04-18 11:02:14 ERROR Error desconocido al iniciar módulo

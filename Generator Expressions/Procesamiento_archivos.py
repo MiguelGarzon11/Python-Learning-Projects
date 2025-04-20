@@ -7,20 +7,12 @@ try:
 
         errores = (linea.strip() for linea in f if "ERROR" in linea)
 
-        parsed = (
-            (
-                parts[0],
-                parts[1],
-                parts[2],
-            )
-            for linea in errores 
-            for parts in [ linea.split(" ", 2)]
-        )
+        parsed = ((parts[0],parts[1],parts[2],)for linea in errores for parts in [ linea.split(" ", 2)])
 
         primeros_errores = islice(parsed, 10)
 
-        for index, (fecha, nivel, mensaje) in enumerate(primeros_errores, 1):
-            print(f"[{index}] {fecha} - [bold red]{nivel}[/bold red] - {mensaje}")
+        for i, (fecha, nivel, mensaje) in enumerate(primeros_errores, 1):
+            print(f"[{i}] {fecha} - [bold red]{nivel}[/bold red] - {mensaje}")
 
 except FileNotFoundError:
     print("[bold red]El archivo registros.log no existe[/bold red]")

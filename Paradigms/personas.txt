@@ -1,0 +1,4 @@
+Estudiante,Camila,18
+Profesor,Miguel,35
+Estudiante,Margarita,21
+Profesor,Oliver,45
